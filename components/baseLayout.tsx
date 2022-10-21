@@ -8,7 +8,7 @@ const BaseLayout = ({ children }) => {
       <Box position="absolute" top="0" left="0" width="230px">
         <SideBar />
       </Box>
-      <Box marginLeft="230px" marginBottom="80px">
+      <Box marginLeft="230px">
         <Box height="calc(100vh - 80px)">{children}</Box>
       </Box>
       <Box positon="absolute" bottom="0" left="0">
