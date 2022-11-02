@@ -22,12 +22,12 @@ const theme = extendTheme({
         link: {
           ':focus': {
             outline: 'none',
-            boxShadow: 'none'
-          }
-        }
-      }
-    }
-  }
+            boxShadow: 'none',
+          },
+        },
+      },
+    },
+  },
 })
 
 const MyApp = ({ Component, pageProps }) => {
